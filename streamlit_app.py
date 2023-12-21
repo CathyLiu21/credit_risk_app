@@ -8,17 +8,18 @@ age = st.slider("**Select Age:**", 18, 70, 30)
 sex = st.radio("**Select Gender:**", ["Male", "Female"])
 job_info = """
 **Select Job Type:**
-- 0: unemployed/unskilled
-- 1: unskilled
-- 2: skilled employee
+- 0: unemployed/unskilled,\
+- 1: unskilled,\
+- 2: skilled employee,\
 - 3: management/highly qualified employee
 """
 job = st.slider(job_info, 0, 3, 1)
 housing = st.radio("**Owns a House?**", ["Yes", "No"])
 saving_acc="""
-- little: <  100 DM
-- moderate: [100, 500) DM
-- quite rich: [500, 1000) DM
+**Saving Account**
+- little: <  100 DM,\
+- moderate: [100, 500) DM,\
+- quite rich: [500, 1000) DM,\
 - rich: >= 1000 DM
 """
 saving_account = st.selectbox(saving_acc, ["little", "moderate", "quite rich", "rich"])
