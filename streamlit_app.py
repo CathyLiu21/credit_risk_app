@@ -6,7 +6,14 @@ st.title("Credit Risk Prediction")
 
 age = st.slider("Select Age", 18, 70, 30)
 sex = st.radio("Select Gender", ["Male", "Female"])
-job = st.slider("Select Job Type \n 0=unemployed/unskilled, 1=unskilled, 2=skilled employee, 3=management/highly qualified employee", 0, 3, 1)
+job_info = """
+Select Job Type:
+- 0: unemployed/unskilled
+- 1: unskilled
+- 2: skilled employee
+- 3: management/highly qualified employee
+"""
+job = st.slider(job_info, 0, 3, 1)
 housing = st.radio("Owns a House?", ["Yes", "No"])
 saving_account = st.selectbox("Saving Account Status", ["little", "moderate", "quite rich", "rich"])
 checking_amount = st.slider("Checking Amount", 0, 20000, 1000)
