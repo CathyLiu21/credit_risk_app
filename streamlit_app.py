@@ -36,5 +36,5 @@ if st.button("Predict"):
     model = pickle.load(open('ml_model.pkl', 'rb'))
     prediction = model.predict(test_arr)
     predicted = "Risky" if prediction else "No Risk" 
-    result = f"The model has predicted that the result is: {predicted}"
+    result = f"Based the information provided, the model has predicted the consumer: {predicted}"
     st.write(result)
