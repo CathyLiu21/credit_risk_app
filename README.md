@@ -16,4 +16,14 @@ Predict whether a customer have good or bad credit risk
 ## How to use?
 Type values of selected six features of a new consumer, the app will generate if the consumer is 'risky' or 'not risky'
 
+## Data source 
+
+Statlog (German Credit Data) https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data
+
+## Model Trained
+
+Catboost
+
+
+
 
