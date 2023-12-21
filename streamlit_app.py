@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pickle
 
-st.title("Credit Risk Prediction")
+st.title("Credit Risk Predictor")
 
 age = st.slider("**Select Age:**", 18, 70, 30)
 sex = st.radio("**Select Gender:**", ["Male", "Female"])
