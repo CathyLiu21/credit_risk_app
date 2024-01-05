@@ -20,7 +20,7 @@ model = CatBoostClassifier(iterations=2,
                            learning_rate=1,
                            depth=2)
 
-model.fit(X_train, y_train, cat_features=['Sex', 'Job', 'Housing', 'Saving accounts', 'Checking account', 'Purpose'] )
+model.fit(X_train, y_train, cat_features=['Age','Sex', 'Job', 'Housing', 'Saving accounts', 'Checking account','Credit amount','Duration','Purpose'] )
 
 print("Creating Pickle File")
 pickle.dump(model, open('ml_model.pkl', 'wb'))
