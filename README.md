@@ -14,7 +14,7 @@ Predict whether a customer have good or bad credit risk
 [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/app-starter-kit?quickstart=1)
 
 ## How to use?
-Type values of selected six features of a new consumer, the app will generate if the consumer is 'risky' or 'not risky'
+Enter values of selected nine features of a new consumer, then click 'Predict', the app will generate if the consumer is 'risky' or 'not risky'
 
 ## Data source 
 
